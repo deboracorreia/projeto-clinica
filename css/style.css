@@ -1,0 +1,11 @@
+/* Cor de background padrão */
+body {
+    background-color: #79cafa !important;
+}
+
+.logo {
+    width: 100px; /* Ajuste o tamanho da logo conforme necessário */
+    position: absolute;
+    top: 20px;
+    left: 20px;
+  }
