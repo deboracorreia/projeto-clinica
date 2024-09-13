@@ -4,8 +4,25 @@ body {
 }
 
 .logo {
-    width: 100px; /* Ajuste o tamanho da logo conforme necessário */
+    width: 150px; /* Ajuste o tamanho da logo conforme necessário */
     position: absolute;
     top: 20px;
     left: 20px;
   }
+
+  /* Campos em duas colunas */
+.duplo-campos {
+    display: flex;
+    gap: 10px; /* Espaçamento entre os campos */
+    margin-bottom: 15px;
+}   
+
+.duplo-campos .form-group {
+    flex: 1; /* Faz os campos ocuparem o mesmo espaço */
+  }
+
+/* Estilos do formulário */
+form {
+    display: flex;
+    flex-direction: column;
+}
